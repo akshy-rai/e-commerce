@@ -6,8 +6,9 @@ body{
 
 header{
     background-color: #9ECAD6;
-    height: 70px;
+    height: auto;
     display: flex;
+    padding: 1rem;
 }
 
 .header-left img{
@@ -17,12 +18,35 @@ header{
 }
 
 .header-right{
-    text-align: end;
     padding:12px 12px 0 80%;
 }
 
 .header-right button{
     border-radius: 25px;
-    width: 80px;
+    width: auto;
     background-color:#F5CBCB;
+    font-size: 24px;
+}
+
+.su-form{
+    padding: 25px;
+}
+
+.su-form fieldset{
+    border-color: aliceblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    width: auto;
+    margin:20px 0;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.su-form h2{
+    color: #340068;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
