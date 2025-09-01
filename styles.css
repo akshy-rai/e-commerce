@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #748DAE;
+    background-image: url(form-background.jpg);
+    background-size: cover;
+
 }
 
 header{
@@ -28,8 +31,19 @@ header{
     font-size: 24px;
 }
 
+.prod{
+    background-color: #748DAE;;
+}
+.prod img{
+    width:500px;
+    height: auto;
+    padding: 25px 0 0 25px;
+    text-align: center;
+}
+
 .su-form{
     padding: 25px;
+    
 }
 
 .su-form fieldset{
@@ -44,9 +58,22 @@ input{
     margin:20px 0;
     border:1px solid black;
     border-radius: 10px;
+    background-color: #B1EDE8;
 }
 
 .su-form h2{
     color: #340068;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: #0d8196;
+    text-align: center;
+    color: white;
+    height: 85px;
+}
+
+.author-credit {
+    text-align: center;
+    padding: 1px 0 0 0;
 }
