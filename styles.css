@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #748DAE;
+}
+
+header{
+    background-color: #9ECAD6;
+    height: 70px;
+    display: flex;
+}
+
+.header-left img{
+    height: auto;
+    width: 120px;
+    padding: 12px 0 0 12px;
+}
+
+.header-right{
+    text-align: end;
+    padding:12px 12px 0 80%;
+}
+
+.header-right button{
+    border-radius: 25px;
+    width: 80px;
+    background-color:#F5CBCB;
+}
