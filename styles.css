@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    background-color: #9ECAD6;
+    background-color: #9097C0;
     height: auto;
     display: flex;
     padding: 1rem;
@@ -33,12 +33,16 @@ header{
 
 .prod{
     background-color: #748DAE;;
+    background-image: url(shopping-back.jpg);
+    background-size: cover;
+    min-height: auto;
 }
 .prod img{
     width:500px;
     height: auto;
     padding: 25px 0 0 25px;
     text-align: center;
+    visibility: hidden;
 }
 
 .su-form{
@@ -67,7 +71,7 @@ input{
 }
 
 footer {
-    background-color: #0d8196;
+    background-color: #9097C0;
     text-align: center;
     color: white;
     height: 85px;
