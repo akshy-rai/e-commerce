@@ -2,8 +2,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #748DAE;
-    background-image: url(form-background.jpg);
     background-size: cover;
+    background-image: url(form-background.jpg);
 
 }
 
@@ -35,7 +35,7 @@ header{
     background-color: #748DAE;;
     background-image: url(shopping-back.jpg);
     background-size: cover;
-    min-height: auto;
+    height:75vh;
 }
 .prod img{
     width:500px;
